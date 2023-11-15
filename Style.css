@@ -1,0 +1,38 @@
+.navbar-nav{
+    gap: 60px;
+}
+
+.navbar-nav :hover{
+   text-decoration: underline;
+   text-underline-offset: 0.5em;
+}
+
+.button2{
+    border-style: solid;
+}
+
+
+.div_line .line {
+    height: 2px;
+    width: 65%;
+    margin-bottom: 18px;
+    background-color: rgba(0, 0, 0, 0.294);
+}
+
+.div_line {
+    height: auto;
+    width: auto;
+    margin-top: 0;
+    top: 10px;
+  }
+
+
+@media only screen and (max-width: 900px) {
+    .navbar-nav{
+        gap: 0px;
+    }
+    
+    body{
+        padding: 10px 10px;
+    }
+}
