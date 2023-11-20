@@ -14,7 +14,7 @@
 
 .div_line .line {
     height: 2px;
-    width: 65%;
+    width: 100%;
     margin-bottom: 18px;
     background-color: rgba(0, 0, 0, 0.294);
 }
@@ -25,6 +25,10 @@
     margin-top: 0;
     top: 10px;
   }
+
+  .Market{
+    margin-top: 70px;
+}
 
 /* phone screen */
 
@@ -47,7 +51,7 @@
     }
     .div_line .line {
         height: 2px;
-        width: 85%;
+        width: 100%;
         margin-bottom: 18px;
         background-color: rgba(0, 0, 0, 0.294);
     }
@@ -62,13 +66,14 @@
 
     .div_line .line {
         height: 2px;
-        width: 40%;
+        width: 100%;
         margin-bottom: 18px;
         background-color: rgba(0, 0, 0, 0.294);
     }
     
     .icon{
         font-size: 40px;
+        margin-left: 250px;
     }
 
     .Market{
